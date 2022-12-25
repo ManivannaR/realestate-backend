@@ -10,4 +10,4 @@ const propertySchema = new Schema({
   createdAt: { type: Date, default: Date.now },
 });
 
-module.exports = mongoose.model("Assests", propertySchema);
+module.exports = mongoose.model("PropertyModel", propertySchema);
